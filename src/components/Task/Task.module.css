@@ -1,0 +1,31 @@
+.taskWrapper {
+  padding: 1rem; /* 16px */
+  background: var(--gray-500);
+  border-radius: 8px;
+}
+
+.taskWrapper + .taskWrapper{
+  margin-top: 0.75rem; /* 12px */
+}
+
+.taskContent {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.75rem; /* 12px; */
+}
+
+.taskContent p {
+  flex: 1;
+  color: var(--gray-100);
+}
+
+.taskContent button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+}
+
+.checked {
+  text-decoration: line-through;
+  color: var(--gray-300) !important;
+}

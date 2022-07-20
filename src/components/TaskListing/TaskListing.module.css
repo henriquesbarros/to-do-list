@@ -1,0 +1,63 @@
+.taskListing {
+  margin-top: 4rem; /* 64px */
+}
+
+.listingHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+.listingHeaderOption {
+  display: flex;
+  gap: 0.5rem; /* 8px */
+  align-items: center;
+}
+
+.listingHeaderOption p {
+  font-size: 0.875rem; /* 14px */
+  font-weight: bold;
+}
+
+.listingHeaderOption:first-child p {
+  color: var(--blue-500)
+}
+
+.listingHeaderOption:last-child p {
+  color: var(--purple-500)
+}
+
+.listingHeaderOption span {
+  font-size: 0.75rem; /* 12px */
+  font-weight: bold;
+  padding: 0.125rem 0.5rem; /* 2px 8px */
+  background: var(--gray-400);
+  border-radius: 8px;
+}
+
+.taskListing hr {
+  background: var(--gray-400);
+  height: 1px;
+  border: none;
+}
+
+.emptyTaskListing {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 4rem; /* 64px */
+}
+
+.emptyTaskListing svg {
+  color: var(--gray-400);
+}
+
+.emptyTaskListingTexts {
+  margin-top: 1rem; /* 16px */
+}
+
+.emptyTaskListingTexts p:first-child {
+  font-weight: bold;
+}
+
+
